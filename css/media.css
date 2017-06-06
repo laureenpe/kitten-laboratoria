@@ -1,0 +1,16 @@
+/*Pantallas con máximo 599 res*/
+
+@media screen and (max-width: 599px) {
+    #background {
+        background-image: url('../img/maxresdefault.jpg');
+    }
+}
+
+
+/*Pantallas con máximo 992 y minimo 600 res*/
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    #background {
+        background-image: url('../img/dawn.png');
+    }
+}

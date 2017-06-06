@@ -6,17 +6,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
 </head>
 
 <body>
-    <img src="img/Landscape.jpg" alt="landscape" style="width: 100%; position: relative;">
-
-    <picture>
-        <source media="(min-width: 650px)" srcset="img/kitten-large.png">
-        <source media="(min-width: 465px)" srcset="img/kitten-medium.png">
-        <!-- img tag for browsers that do not support picture element -->
-        <img src="img/kitten-small.png" alt="a cute kitten">
-    </picture>
+    <section id="background">
+        <div class="kittens">
+            <picture>
+                <source media="(min-width: 992px)" srcset="img/kitten-large.png">
+                <source media="(min-width: 600px)" srcset="img/kitten-medium.png">
+                <img src="img/kitten-small.png" alt="A cute kitten">
+            </picture>
+        </div>
+    </section>
 
 </body>
 

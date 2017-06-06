@@ -1,8 +1,31 @@
-img{
-    display: block; margin: 0 auto:
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-.landscape{
+
+/*Imagen*/
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.kittens {
+    margin-bottom: 8%;
+}
+
+
+/*Display Flex*/
+
+#background {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
     width: 100%;
-    position: relative;
+    background-image: url('../img/Landscape.jpg');
+    background-size: cover;
+    background-position: center;
 }
